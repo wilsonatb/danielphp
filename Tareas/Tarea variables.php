@@ -7,15 +7,16 @@
 </head>
 <body>
     <?php
-    $numero = 39 ;
-    $numeron = -8; 
-    if($numero > 0 ){
-        echo("El numero es positivo");
-    }elseif($numero < 0){
-        echo("El numero es negativo");
-    }else{
-        echo("EL numero es 0");
-    }
+    $base = 200;
+    $altura = 80;
+
+     $area = $base * $altura; 
+
+    echo "El area del rectangulo es: " . $area;
+
+    // $base * $altura; 
+    
     ?>
+
 </body>
 </html>

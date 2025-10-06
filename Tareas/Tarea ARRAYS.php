@@ -10,7 +10,7 @@
     $frutas = ["PERA" , "MANZANA" , "UVA" , "GUAYABA", "CAMBUR"];
 
     foreach($frutas as $fruta){
-        echo "<li> $fruta </li>"
+        echo "<li> $fruta </li>";
     }
     ?>
 </body>

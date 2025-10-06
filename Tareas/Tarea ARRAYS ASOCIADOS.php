@@ -8,14 +8,14 @@
 <body>
     <?php
     // Respuesta Mia
-    $Nombres = [
+    /* $Nombres = [
         "name" => "Ana" , "Luis" , "Marta",
         "years" => 25, 30 , 28,
     ];
 
     foreach ($Nombres as $nombre =>$edad) {
-        echo "$nombre tiene $edad años ";
-    }
+        echo "$nombre tiene $edad años <br>";
+    } */
     // Solucion de busqueda
     $edades =[
         "Ana" => 25,
@@ -23,8 +23,8 @@
         "Marta" => 28
     ];
 
-    foreach ($Nombres as $nombre =>$edad) {
-        echo "$nombre tiene $edad años ";
+    foreach ($edades as $nombre => $edad) {
+        echo "$nombre tiene $edad años <br>";
     }
     ?>
 </body>
